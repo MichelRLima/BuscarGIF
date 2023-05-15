@@ -32,12 +32,12 @@ text-align: center;
 
 
 .gif{
-  width: 110px;
+  width: 150px;
   height: 140px;
 
   padding: 5px;
   border-radius: 5px;
-  margin: 5px 15px;
+  margin: 5px 3px;
   display: flex;
 
 }
@@ -59,7 +59,7 @@ text-align: center;
   color: white;
   position: absolute;
   opacity: 0;
-  width: 110px;
+  width: 150px;
   height: 140px;
   opacity: 0;
   cursor: pointer;
