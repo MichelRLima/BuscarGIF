@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+  background-color: black;
+  width: 100%;
+}
+
+.tituloGIF{
+  width: 80%;
+  height: 50px;
+  background-image: url(./image/titulo.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin:30px auto;
+}
+
+.containerGif{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+  
+
+}
+
+input[type='text']{
+margin-bottom: 20px;
+border-radius: 5px;
+outline: none;
+border: none;
+text-align: center;
+}
+
+
+.gif{
+  width: 110px;
+  height: 140px;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px 5px;
+  display: flex;
+
+
+
+}
+
+
+.gif img{
+ 
+  margin: 0 auto;
+  height: 100%;
+  width: 90%;
+  z-index: 998;
+ 
+}
+
+
+
+.Link{
+  color: white;
+  position: absolute;
+
+  width: 110px;
+  height: 140px;
+  z-index: 999;
+  opacity: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.Link p{
+  margin-top: -10px;
+}
+
+
+.Link:hover{
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.575);
+
+ 
+  
+ }
+
